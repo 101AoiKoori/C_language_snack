@@ -96,6 +96,5 @@ void col_operation(double matrix[][size], int rows, int cols, int src_col, int d
         }
         printf("\n");
     }
-
     return 0;
 }

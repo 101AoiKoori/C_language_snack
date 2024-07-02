@@ -1,4 +1,5 @@
 #include<stdio.h>
+#include<stdlib.h>
 
 typedef struct TreeNode
 {
@@ -78,12 +79,22 @@ TreeNode *deleteNode(TreeNode *root, int key)
     return root;
 }
 
-TreeNode *minValueNode(TreeNode *node)
+TreeNode *search(TreeNode *root, int key)
 {
-    TreeNode *current = node;
-    while (current && current->left != NULL)
+    if (root == NULL || root->val == key)
     {
-        current = current->left;
+        return root;
     }
-    return current;
+    if (key < root->val)
+    {
+        return search(root->left, key);
+    }
+    return search(root->right, key);
+}
+
+int main(){
+    int root;
+    root=createNode(50);
+    root = insert(root, 20);
+    
 }

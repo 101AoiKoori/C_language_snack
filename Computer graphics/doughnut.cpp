@@ -73,6 +73,7 @@ struct vector3d
     {
         return (P.x * Q.x + P.y * Q.y + P.z * Q.z) / (P.norm() + Q.norm());
     }
+
 };
 
 
