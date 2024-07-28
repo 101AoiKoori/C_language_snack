@@ -45,6 +45,7 @@ int func(int *a, int s, int e)
  
 int main()
 {
+    
     int i = 0;
     int a[10] = {1, 10, 5, 6, 2, 3, 4, 9, 8, 7};
     func(a, 0, N - 1);
