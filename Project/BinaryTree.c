@@ -91,10 +91,3 @@ TreeNode *search(TreeNode *root, int key)
     }
     return search(root->right, key);
 }
-
-int main(){
-    int root;
-    root=createNode(50);
-    root = insert(root, 20);
-    
-}
