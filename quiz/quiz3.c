@@ -12,4 +12,5 @@ main()
     printf("%d\n", s);
 
     printf("%d", '0');
+    return 0;
 }

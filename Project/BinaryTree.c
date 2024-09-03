@@ -89,5 +89,6 @@ TreeNode *search(TreeNode *root, int key)
     {
         return search(root->left, key);
     }
+    
     return search(root->right, key);
 }

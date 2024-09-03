@@ -7,4 +7,6 @@ int main(){
     char *t;
     t = (char*)p+3;
     printf("%s", t);
+
+    return 0;
 }

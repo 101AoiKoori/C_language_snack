@@ -17,5 +17,6 @@ int main()
     x = sss(funa, 9, 3);
     x += sss(funb, 8, 3);
     printf("%d\n", x);
-    
+
+    return 0;
 }

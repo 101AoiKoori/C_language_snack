@@ -1,4 +1,5 @@
 #include<stdio.h>
+
 int *sortedSquares(int *nums, int numsSize, int *returnSize)
 {
     int k = numsSize;

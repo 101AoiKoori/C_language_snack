@@ -29,5 +29,6 @@ int main()
     printf("\n,i=%d\n",i);
     for (int f = 0; f < 10; f++)
         printf("%d ", arr[f]);
+        
     return 0;
 }

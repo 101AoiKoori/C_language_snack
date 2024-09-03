@@ -46,7 +46,6 @@ int main(void)
         printf("i=%d\thead=%p\tnext=%p\n", head->i, (void *)head, (void *)head->next);
         head = head->next;
     }
-
     free(finalnode); 
 
     return 0;

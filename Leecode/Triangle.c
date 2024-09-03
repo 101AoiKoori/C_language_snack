@@ -45,6 +45,5 @@ int main()
     }
     free(triangle);
     free(returnColumnSizes);
-
     return 0;
 }

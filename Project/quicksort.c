@@ -51,5 +51,6 @@ int main()
     func(a, 0, N - 1);
     while (i < N)
         printf("%d\n", a[i++]);
+        
     return 0;
 }

@@ -158,5 +158,6 @@ void CramerRule(double **arr, int size1, double *answer, double *result)
     {
         free(n[i]);
     }
+    
     free(n);
 }

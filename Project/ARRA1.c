@@ -82,5 +82,6 @@ int main()
     printf("Dequeued element: %d\n", dequeue(&q));
     printf("Dequeued element: %d\n", dequeue(&q));
 
+
     return 0;
 }

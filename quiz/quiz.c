@@ -1,14 +1,14 @@
 #include <stdio.h>
 #define N 4
-void fun(int a[][N], int b[], int flag)
-{
+void fun(int a[][N], int b[], int flag){
     int i, j;
-    for (i = 0; i < N; i++)
-    {
+    for (i = 0; i < N; i++){
         b[i] = a[0][i];
-        for (j = 1; j < N; j++)
-            if (flag ? (b[i] > a[j][i]) : (b[i] < a[j][i]))
+        for (j = 1; j < N; j++){
+            if (flag ? (b[i] > a[j][i]) : (b[i] < a[j][i])){
                 b[i] = a[j][i];
+            }   
+        }
     }
 }
 

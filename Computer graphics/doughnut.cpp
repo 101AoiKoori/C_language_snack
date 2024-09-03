@@ -8,7 +8,6 @@ using namespace std;
 
 const double Pi = 3.1415926;
 
-
 const int A_DIV = 20;
 const int B_DIV = 80;
 const double DA = 2 * Pi / A_DIV;
