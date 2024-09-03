@@ -2,8 +2,8 @@
 <br>
 <h1>随手写的小零嘴儿，好玩滴捏</h1>
 <br>
-Ariel, listen to me
-OO languages? it's a mess.
+<p>Ariel, listen to me</p>
+<p>OO languages? it's a mess.</p>
 
 Programming in C is better than anything they've got over there
 The syntax might seem much sweeter
